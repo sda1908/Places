@@ -13,6 +13,7 @@
 		0A22AC9E26E78477002F05B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A22AC9D26E78477002F05B0 /* Assets.xcassets */; };
 		0A22ACA126E78477002F05B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A22AC9F26E78477002F05B0 /* LaunchScreen.storyboard */; };
 		0A22ACA926E7E27D002F05B0 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22ACA826E7E27D002F05B0 /* MainViewController.swift */; };
+		0A452EFE26EF484A00AC5D97 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A452EFD26EF484A00AC5D97 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0A22ACA026E78477002F05B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A22ACA226E78477002F05B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A22ACA826E7E27D002F05B0 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0A452EFD26EF484A00AC5D97 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +61,10 @@
 				0A22AC9426E78473002F05B0 /* AppDelegate.swift */,
 				0A22AC9626E78473002F05B0 /* SceneDelegate.swift */,
 				0A22ACA826E7E27D002F05B0 /* MainViewController.swift */,
+				0A452EFD26EF484A00AC5D97 /* CustomTableViewCell.swift */,
 				0A22AC9A26E78473002F05B0 /* Main.storyboard */,
-				0A22AC9D26E78477002F05B0 /* Assets.xcassets */,
 				0A22AC9F26E78477002F05B0 /* LaunchScreen.storyboard */,
+				0A22AC9D26E78477002F05B0 /* Assets.xcassets */,
 				0A22ACA226E78477002F05B0 /* Info.plist */,
 			);
 			path = Places;
@@ -139,6 +142,7 @@
 			files = (
 				0A22ACA926E7E27D002F05B0 /* MainViewController.swift in Sources */,
 				0A22AC9526E78473002F05B0 /* AppDelegate.swift in Sources */,
+				0A452EFE26EF484A00AC5D97 /* CustomTableViewCell.swift in Sources */,
 				0A22AC9726E78473002F05B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
